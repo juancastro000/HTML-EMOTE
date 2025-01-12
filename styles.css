@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.icon-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    width: 620px;
+}
+
+.grid-row {
+    display: contents;
+}
+.sunny {
+    background-color: #fecd2f;
+}
+
+.ocean {
+    background-color: #5cc9f5;
+}
+
+.volcano {
+    background-color: #f55e5e;
+}
+
+.sunshine {
+    background-color: #fecd2f;
+}
+
+.camping {
+    background-color: #5cc9f5;
+}
+
+.forest {
+    background-color: #f55e5e;
+}
+
+.autumn {
+    background-color: #fecd2f;
+}
+
+.cactus {
+    background-color: #3cb371;
+}
+
+.mushroom {
+    background-color: #5cc9f5;
+}
+
+.flower {
+    background-color: #fecd2f;
+}
+
+.tree {
+    background-color: #3cb371;
+}
+
+.fire {
+    background-color: #f55e5e;
+}
+
+.palm {
+    background-color: #3cb371;
+}
+
+.mountain {
+    background-color: #5cc9f5;
+}
+
+.icon-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 80px;
+    border-radius: 0;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
